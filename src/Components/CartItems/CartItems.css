@@ -1,0 +1,117 @@
+.caritems {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .caritems-format-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .caritems-format-main p {
+    text-align: center;
+  }
+  
+  .caritems-format {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cariticon-product-icon {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .caritems-quantity {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .caritems-quantity:focus {
+    outline: none;
+  }
+  
+  .caritems-format img {
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  
+  /* Optional: Add hover effect to the remove icon */
+  .caritems-format img:hover {
+    opacity: 0.7;
+  }
+  
+  hr {
+    border: 0.5px solid #ddd;
+  }
+  .cartitems-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .cartitems-tptal {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cartitems-total-item p {
+    margin: 0;
+  }
+  
+  .cartitems-total-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .cartitems-promocode {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .cartitems-promocode p {
+    margin-bottom: 10px;
+  }
+  
+  .cartitems-promobox {
+    display: flex;
+  }
+  
+  .cartitems-promobox input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cartitems-promobox button {
+    background-color:black ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cartitems-promobox button:hover {
+    background-color: #ff4141;
+  }
+  
+  
